@@ -1,0 +1,8 @@
+sample_id,aperture_mm,percent_passing
+S-A,0.5,5
+S-A,1,15
+S-A,2,35
+S-A,5,67
+S-A,10,88
+S-B,0.25,25
+S-B,2,70

@@ -1,0 +1,86 @@
+{
+  "samples": [
+    {
+      "sample_id": "S-A",
+      "dry_mass": 1000.0,
+      "recovered_mass": 1000.0,
+      "mass_balance_error_percent": 0.0,
+      "curve": [
+        {
+          "aperture_mm": 0.5,
+          "percent_passing": 5.0
+        },
+        {
+          "aperture_mm": 1.0,
+          "percent_passing": 15.0
+        },
+        {
+          "aperture_mm": 2.0,
+          "percent_passing": 35.0
+        },
+        {
+          "aperture_mm": 5.0,
+          "percent_passing": 67.0
+        },
+        {
+          "aperture_mm": 10.0,
+          "percent_passing": 88.0
+        }
+      ],
+      "characteristic_sizes": {
+        "D10": {
+          "diameter_mm": 0.7071067811865476
+        },
+        "D30": {
+          "diameter_mm": 1.681792830507429
+        },
+        "D60": {
+          "diameter_mm": 4.091858692369662
+        }
+      },
+      "coefficients": {
+        "Cu": 5.786762058063414,
+        "Cc": 0.9775508639775471,
+        "note": "null when any required characteristic size is unavailable"
+      }
+    },
+    {
+      "sample_id": "S-B",
+      "dry_mass": 800.0,
+      "recovered_mass": 800.0,
+      "mass_balance_error_percent": 0.0,
+      "curve": [
+        {
+          "aperture_mm": 0.25,
+          "percent_passing": 25.0
+        },
+        {
+          "aperture_mm": 2.0,
+          "percent_passing": 70.0
+        }
+      ],
+      "characteristic_sizes": {
+        "D10": {
+          "diameter_mm": null,
+          "note": "target percent passing not bracketed by curve nodes; no extrapolation"
+        },
+        "D30": {
+          "diameter_mm": 0.3149802624737183
+        },
+        "D60": {
+          "diameter_mm": 1.2599210498948732
+        }
+      },
+      "coefficients": {
+        "Cu": null,
+        "Cc": null,
+        "note": "null when any required characteristic size is unavailable"
+      }
+    }
+  ],
+  "invalid_samples": [],
+  "summary": {
+    "valid_count": 2,
+    "invalid_count": 0
+  }
+}

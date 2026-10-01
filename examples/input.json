@@ -1,0 +1,25 @@
+{
+  "samples": [
+    {
+      "sample_id": "S-A",
+      "dry_mass": 1000.0,
+      "sieves": [
+        {"aperture": 10.0, "retained": 120.0},
+        {"aperture": 5.0, "retained": 210.0},
+        {"aperture": 2.0, "retained": 320.0},
+        {"aperture": 1.0, "retained": 200.0},
+        {"aperture": 0.5, "retained": 100.0}
+      ],
+      "pan": 50.0
+    },
+    {
+      "sample_id": "S-B",
+      "dry_mass": 800.0,
+      "sieves": [
+        {"aperture": 2.0, "retained": 240.0},
+        {"aperture": 0.25, "retained": 360.0}
+      ],
+      "pan": 200.0
+    }
+  ]
+}
