@@ -1,0 +1,88 @@
+{
+  "sample_count": 3,
+  "valid_count": 2,
+  "invalid_count": 1,
+  "samples": [
+    {
+      "sample_id": "A-01",
+      "valid": true,
+      "dry_mass": 1000.0,
+      "recovered_mass": 995.0,
+      "recovery_ratio": 0.995,
+      "curve": [
+        {
+          "aperture_mm": 0.075,
+          "retained_mass": 95.0,
+          "percent_passing": 2.0100502512562812
+        },
+        {
+          "aperture_mm": 0.25,
+          "retained_mass": 200.0,
+          "percent_passing": 11.557788944723619
+        },
+        {
+          "aperture_mm": 0.5,
+          "retained_mass": 350.0,
+          "percent_passing": 31.65829145728643
+        },
+        {
+          "aperture_mm": 2.0,
+          "retained_mass": 200.0,
+          "percent_passing": 66.83417085427136
+        },
+        {
+          "aperture_mm": 5.0,
+          "retained_mass": 90.0,
+          "percent_passing": 86.93467336683418
+        },
+        {
+          "aperture_mm": 10.0,
+          "retained_mass": 40.0,
+          "percent_passing": 95.97989949748744
+        }
+      ],
+      "characteristic_sizes": {
+        "D10": 0.20541313622113785,
+        "D30": 0.47220983667753386,
+        "D60": 1.5277712749936492
+      },
+      "size_notes": {},
+      "Cu": 7.437553912564406,
+      "Cc": 0.7105317773451609
+    },
+    {
+      "sample_id": "A-02-coarse",
+      "valid": true,
+      "dry_mass": 800.0,
+      "recovered_mass": 800.0,
+      "recovery_ratio": 1.0,
+      "curve": [
+        {
+          "aperture_mm": 10.0,
+          "retained_mass": 500.0,
+          "percent_passing": 0.0
+        },
+        {
+          "aperture_mm": 20.0,
+          "retained_mass": 300.0,
+          "percent_passing": 62.5
+        }
+      ],
+      "characteristic_sizes": {
+        "D10": 11.172871380722201,
+        "D30": 13.947436663504057,
+        "D60": 19.453098948245714
+      },
+      "size_notes": {},
+      "Cu": 1.7411011265922482,
+      "Cc": 0.8950250709279726
+    },
+    {
+      "sample_id": "A-03-bad-recovery",
+      "valid": false,
+      "errors": [
+        "mass recovery check failed: |850 - 1000| exceeds 1% of dry mass (recovery ratio 0.85)"
+      ]
+    }
+  ]
+}

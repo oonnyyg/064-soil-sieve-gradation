@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "id": "A-01",
+      "dry_mass": 1000.0,
+      "pan_mass": 20.0,
+      "sieves": [
+        {"aperture_mm": 10.0, "retained_mass": 40.0},
+        {"aperture_mm": 5.0, "retained_mass": 90.0},
+        {"aperture_mm": 2.0, "retained_mass": 200.0},
+        {"aperture_mm": 0.5, "retained_mass": 350.0},
+        {"aperture_mm": 0.25, "retained_mass": 200.0},
+        {"aperture_mm": 0.075, "retained_mass": 95.0}
+      ]
+    },
+    {
+      "id": "A-02-coarse",
+      "dry_mass": 800.0,
+      "pan_mass": 0.0,
+      "sieves": [
+        {"aperture_mm": 20.0, "retained_mass": 300.0},
+        {"aperture_mm": 10.0, "retained_mass": 500.0}
+      ]
+    },
+    {
+      "id": "A-03-bad-recovery",
+      "dry_mass": 1000.0,
+      "pan_mass": 0.0,
+      "sieves": [
+        {"aperture_mm": 2.0, "retained_mass": 850.0}
+      ]
+    }
+  ]
+}
